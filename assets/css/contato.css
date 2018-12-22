@@ -1,0 +1,163 @@
+#contato{
+    background-image: url(../img/fundo-contato.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left; 
+    height: 110%;
+}
+
+.filter-contato{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(3, 3, 3, 0.712);
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+
+
+.cumprimento{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 80px;
+}
+
+
+.cumprimento h3{
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px;
+  border: solid #C3C63B 2px;
+}
+
+.filter-contato .contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.filter-contato .icone-contato{
+   padding-bottom: 90px;
+}
+
+.filter-contato .icone-contato i{
+    color: #c3c63b;	
+    font-size: 70px;
+    margin-bottom: 0px;
+}
+
+.icone-contato h4{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+
+.icone-contato p{
+    color: #c3c63b;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.curriculo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C3C63B;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.curriculo h5{
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+
+@media(min-width: 576px) {
+
+    .cumprimento{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 120px;
+    }
+    
+    
+    .cumprimento h3{
+      color: #fff;
+      font-size: 1.7rem;
+      padding: 20px;
+      border: solid #C3C63B 2px;
+    }
+
+
+    .filter-contato .contatos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin-top: 8%;
+    }
+
+
+    .filter-contato .icone-contato i{
+        color: #c3c63b;	
+        font-size: 120px;
+        margin-bottom: 0px;
+    }
+    
+    .icone-contato h4{
+        color: #fff;
+        font-size: 1rem;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .icone-contato p{
+        color: #c3c63b;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-top: 2px;
+    }
+
+    .curriculo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #C3C63B;
+        border-radius: 20px;
+        padding: 10px 20px;
+        /* margin-right: 1%; */
+    }
+    
+    .curriculo h5{
+        color: #000;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+
+    .filter-contato .icone-contato{
+        padding-bottom: 75px;
+     }
+     
+
+   
+}
+
+

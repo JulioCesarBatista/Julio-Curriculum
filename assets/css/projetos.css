@@ -1,0 +1,140 @@
+
+#projetos{
+    background-image: url(../img/background-projetos.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+
+#projetos h3{
+   color: #000;
+}
+
+
+.projetos-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos-mobile .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projetos-mobile .titulo h2{
+    font-size: 4rem;
+    font-family: 'mitoafro';
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding: 0px 25px;
+}
+
+.projetos-mobile .titulo p{
+    font-size: 1rem;
+    line-height: 30px;
+    padding: 0px 40px;
+}
+
+.projetos-logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projetos-logos > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 25px;
+}
+
+.projetos-logos div p{
+    margin-top: 0px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.projetos-logos div h4{
+    margin-bottom: 2px;
+}
+
+.projetos-mobile .titulo hr{width: 45vw;border: solid 1px #C3C63B;}
+
+.imagem-movi{width: 40vw;}
+
+.imagem-respiration{width: 80vw;}
+
+.imagem-hotel{width: 80vw; }
+
+.imagem-wedance{width: 40vw;}
+
+.imagem-mitoafro{width: 40vw;}
+
+.projetos-desk{
+    display: none;
+}
+
+
+    @media(min-width: 790px) {
+
+        .projetos-mobile{display: none;}
+        .projetos-desk{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+        .projetos-desk .imagens{display: flex; justify-content: center; align-items: center; text-align: center;}
+
+    
+        .card {
+            /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+            transition: 0.3s;
+            width: 20%;
+        }
+        
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+        .container {
+            padding: 2px 16px;
+        }
+
+        
+        .logos-projetos{width: 12vw;}
+
+
+
+        .projetos-desk .titulo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .projetos-desk  .titulo h2{
+            font-size: 4rem;
+            font-family: 'mitoafro';
+            font-weight: 100;
+            text-transform: uppercase;
+            margin-top: 100px;
+            padding: 0px 25px;
+        }
+        
+        .projetos-desk  .titulo p{
+            font-size: 1rem;
+            line-height: 30px;
+            padding: 0px 40px;
+        }
+
+        .projetos-desk .titulo hr{width: 20vw;border: solid 1px #C3C63B;}
+
+    }

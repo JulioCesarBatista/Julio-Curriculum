@@ -1,0 +1,121 @@
+
+/* frase - Teceira parte da Home  */
+.frase{
+    display: flex;
+    background-image: url(../img/teste.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: 20%;
+    height: 100vh;
+}
+
+.fundo-preto-desk{
+    background-color: rgba(0, 0, 0, 0.596);
+    width: 100%;
+}
+
+.frase .informacoes-frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.informacoes-frase h2{
+    color: #FFF;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+
+.informacoes-frase hr{
+    width: 200px;
+    border: solid 2px #C3C63B
+    
+}
+
+.informacoes-frase .hr-1{
+    margin-left: 0px;
+}
+
+.informacoes-frase .hr-2{
+    margin-right: 0px;
+}
+
+.informacoes-frase p{
+    color: #FFF;
+    text-align: right;
+    font-weight: 500;
+    margin: 0px 10px 15px 0px;
+    font-size: 0.7rem;
+}
+
+.aspas-frase{
+    font-size: 1.1rem;
+    color: #C3C63B
+}
+
+
+
+
+
+@media(min-width: 576px){
+
+    /* frase - Teceira parte da Home  */
+
+    .frase{
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        /* background-position-y: 20%; */
+    }
+    
+    .fundo-preto-desk{
+        background-color: rgba(0, 0, 0, 0.63);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .frase .informacoes-frase{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .informacoes-frase hr{
+        width: 400px;
+        border: solid 4px #C3C63B
+    }
+    
+    .informacoes-frase h2{
+        color: #FFF;
+        text-align: center;
+        font-style: italic;
+        font-size: 2.5rem;
+    }
+    
+    .informacoes-frase p{
+        color: #FFF;
+        text-align: right;
+        font-weight: 500;
+        margin: 40px 50px 40px 0px;
+    }
+    
+    .aspas-frase{
+        font-size: 2.5rem;
+        color: #C3C63B;
+    }
+    
+
+    
+}

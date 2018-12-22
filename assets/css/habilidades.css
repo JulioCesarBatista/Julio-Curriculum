@@ -1,0 +1,300 @@
+#habilidades{
+    background-color: #191C03;
+}
+
+#habilidades .titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#habilidades .titulo h2{
+    font-size: 3rem;
+    font-family: 'mitoafro';
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 160px;
+    padding: 0px 25px;
+}
+
+#habilidades .titulo hr{width: 45vw;border: solid 1px #C3C63B;}
+
+.todas-habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo-habilidade{
+    font-size: 0.8rem;
+    font-family: 'NotoSans-Regular';
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 30px;
+   
+}
+
+.titulo-habilidade h4{
+    border: #C3C63B solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#habilidades .todas-habilidades div {
+    padding: 5px;
+}
+
+
+#habilidades .todas-habilidades .habilidade{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#habilidades .todas-habilidades .habilidade .nivel-habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+
+#habilidades .todas-habilidades .habilidade .nivel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#habilidades .todas-habilidades .habilidade .nivel h5{
+    border: #fff solid 1px;
+    padding: 2px 3px 2px 2px;
+    text-align: center;
+    color: #fff;
+    font-family: 'NotoSans-Regular';
+    font-weight: 100;
+}
+
+.img-habilidade{
+    width: 55vw;
+}
+
+.software-grafico{
+    background-color: #191C03;
+}
+
+
+.parte1-cor{
+    padding-bottom: 111px;
+}
+
+
+.parte2-cor{
+    padding-top: 70px;
+    padding-bottom: 90px;
+    background-color: #000;
+
+}
+
+
+.parte3-cor{
+    padding-top: 45px;
+    background-color: #C3C63B;
+}
+
+
+
+.parte3-cor .titulo-habilidade{
+    font-size: 0.8rem;
+    font-family: 'NotoSans-Regular';
+    font-weight: 100;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 50px;
+   
+}
+
+.parte3-cor .titulo-habilidade h4{
+    border: #000 solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+#habilidades .todas-habilidades .habilidade .nivel-habilidades-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+
+#habilidades .todas-habilidades .habilidade .nivel-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#habilidades .todas-habilidades .habilidade .nivel-video h5{
+    border: #000 solid 2px;
+    padding: 2px 3px 2px 2px;
+    text-align: center;
+    color: #000;
+    font-family: 'NotoSans-Regular';
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 576px) {
+  
+    #habilidades  .titulo h2{
+        font-size: 4rem;
+        font-family: 'mitoafro';
+        font-weight: 100;
+        text-transform: uppercase;
+        margin-top: 100px;
+        padding: 0px 25px;
+    }
+
+    #habilidades  .titulo hr{width: 20vw;border: solid 1px #C3C63B;}
+
+
+    .titulo-habilidade{
+        font-size: 1.2rem;
+        font-family: 'NotoSans-Regular';
+        font-weight: 100;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    #habilidades .todas-habilidades .habilidade{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 210px;
+    }
+
+
+
+    #habilidades .todas-habilidades .habilidade .nivel-habilidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        font-size: 2.5rem;
+    }
+    
+    
+    #habilidades .todas-habilidades .habilidade .nivel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+
+    .img-habilidade{
+        width: 40vw;
+        padding-right: 100px;
+    }
+   
+    #habilidades .todas-habilidades .habilidade .nivel h5{
+        padding: 10px;
+     
+    }
+
+    .parte2-cor{
+        padding-top: 170px;
+       
+    }
+
+    .parte3-cor{
+        padding-top: 170px;
+    }
+
+
+
+    #habilidades .todas-habilidades .habilidade .nivel-habilidades-video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        font-size: 2.5rem;
+    }
+    
+    
+    #habilidades .todas-habilidades .habilidade .nivel-video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+   
+    #habilidades .todas-habilidades .habilidade .nivel-video h5{
+        padding: 10px;
+     
+    }
+ 
+    .parte3-cor .titulo-habilidade h4{
+        font-size: 1.4rem; 
+    }
+
+ 
+  }
+  

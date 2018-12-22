@@ -1,0 +1,40 @@
+
+.experiencia{
+    background-color: #C3C63B;
+    height: 100%;
+    margin-top: 100px;
+    padding-bottom: 140px;
+} 
+
+
+.parte1, .parte2, .parte3, .parte4, .parte5, .parte6, .parte7{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.parte1 h2{
+  margin-top: 50px; 
+  font-size: 3rem; 
+  font-family: 'mitoafro';
+  text-transform: uppercase;
+  font-weight: 100;}
+
+.parte1 hr{width: 45vw;border: solid 1px #000;}
+
+.parte1 img, .parte2 img, .parte3 img, .parte4 img, .parte5 img, .parte6 img, .parte7 img{width: 95vw;}
+
+.imagem-desk{display: none;}
+
+
+@media(min-width: 576px) {
+  .parte1 img, .parte2 img, .parte3 img, .parte4 img, .parte5 img, .parte6 img, .parte7 img{width: 50vw;}
+  .imagem-desk{display: flex;}
+  .imagem-mobile{display: none;}
+  .parte1 hr{width: 25vw;border: solid 1px #000;}
+  
+.parte1 h2{font-size: 4rem;}
+}
