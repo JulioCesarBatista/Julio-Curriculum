@@ -7,11 +7,11 @@ menuHamburguer.onclick = () => {
 }
 
 
-const filtrosMobile = document.querySelector('.filtros.mobile');
-const listaFiltrosMobile = docuemnt.querySelectorAll ('.filtros.mobile a');
+// const filtrosMobile = document.querySelector('.filtros.mobile');
+// const listaFiltrosMobile = docuemnt.querySelectorAll ('.filtros.mobile a');
 
-for (const filtro of listaFiltrosMobile){
-    filtro.onclick = () => {
-      filtrosMobile.classlist.remove('ativo');
-    }
-}
+// for (const filtro of listaFiltrosMobile){
+//     filtro.onclick = () => {
+//       filtrosMobile.classlist.remove('ativo');
+//     }
+// }
